@@ -1,4 +1,4 @@
-# terraria
+# terraria_server
 
 Docker images to run a Terraria Server. Forked from beardedio/terraria. Images with [TShock Server](https://github.com/Pryaxis/TShock) or [Vanilla Server](https://terraria.gamepedia.com/Server) are available.
 
@@ -8,7 +8,7 @@ Docker images to run a Terraria Server. Forked from beardedio/terraria. Images w
 ### Usage
 ```
 docker create --rm -it \
-  --name=terraria_server \
+  --name=terraria \
   -v <path to data>:/config \
   -e world=<world_file_name> \
   -p 7777:7777 \
@@ -126,4 +126,4 @@ The server requires a tty connection, so when starting the server via docker run
 The MIT License (MIT)
 Copyright (c) 2023 Henry Skrtich
 
-Forked 2023 Matthias Nowak
+Fork - 2023 Matthias Nowak
