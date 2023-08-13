@@ -13,19 +13,19 @@ import sys, os, glob, datetime, urllib
 #####
 
 # Repository name
-repo = "terraria"
+repo = "terraria_server"
 
 # Repository Slug
-slug = "beardedio/terraria"
+slug = "matthiasnowak/terraria_server"
 
 # The folder that is tagged "latest"
 latest_folder = "vanilla"
 
 # Docker Hub Description, Limit 100 Characters
-short_description = "Docker images to run a Terraria Server. Images with TShock Server or Vanilla Server are available."
+short_description = "Docker images to run a Terraria Server. Forked from beardedio/terraria. Images with TShock Server or Vanilla Server are available."
 
 # Full description used in the readme.md
-full_description = "Docker images to run a Terraria Server. Images with [TShock Server](https://github.com/Pryaxis/TShock) or [Vanilla Server](https://terraria.gamepedia.com/Server) are available."
+full_description = "Docker images to run a Terraria Server. Forked from beardedio/terraria. Images with [TShock Server](https://github.com/Pryaxis/TShock) or [Vanilla Server](https://terraria.gamepedia.com/Server) are available."
 
 
 
