@@ -7,14 +7,14 @@ on:
     #     description: 'Docker Tag'
     #     required: false
     #     default: 'latest'
-  push:
-    branches: [main,master]
-    # Only build when files in these directories have been changed
-    paths:
-      - containers/**
-      - template/**
-  schedule:
-    - cron:  '0 9 * * *' # UTC
+  #push:
+  #  branches: [main,master]
+  #  # Only build when files in these directories have been changed
+  #  paths:
+  #    - containers/**
+  #    - template/**
+  #schedule:
+  #  - cron:  '0 9 * * *' # UTC
 
 jobs:
   build:
